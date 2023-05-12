@@ -1,4 +1,18 @@
-header{
-   backgroud-color: #424E61;
-   color: royalblue;
+:root {
+    --cor-de-fundo: rgb(97, 2, 126);
 }
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    text-align: center;
+    background-color: var(rgb(0, 0, 0));
+}
+
+h3 {
+    background-color: var(rgb(255, 255, 255));
+}
+
+
